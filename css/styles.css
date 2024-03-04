@@ -1,66 +1,91 @@
 body {
-  font-family: Roboto, Raleway, sans-serif;
-  color: 2e2F42;
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .logo {
-  color: #2e2f42;
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.logo-1 {
+  font-family: Raleway, sans-serif;
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.navigation {
+.logo-1 {
   color: #2e2f42;
+  font-size: 18px;
+  font-weight: 700;
 }
 
-.navigation .navigation-1:hover {
+.navigation .navigation-link {
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.navigation .navigation-link:hover {
   color: #404bbf;
 }
 
-.navigation .navigation-2:hover {
-  color: #404bbf;
-}
-
-.navigation .navigation-3:hover {
+.navigation .navigation-link:focus {
   color: #404bbf;
 }
 
 .connection .connection-link {
   color: #434455;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .connection .connection-link:hover {
   color: #404bbf;
 }
 
-h1 {
+.connection .connection-link:focus {
+  color: #404bbf;
+}
+
+.maintitle {
+  background-color: #2e2f42;
+  color: #ffffff;
   font-weight: bold;
   font-size: 56px;
-  letter-spacing: 2%;
-  line-height: 60px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  text-align: center;
 }
 
-button {
+.button {
   background-color: #4d5ae5;
   color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
-button:hover {
+.button:hover {
   background-color: #404bbf;
   color: #ffffff;
 }
 
+.button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 .section-title {
   color: #2e2f42;
-  font-weight: medium;
+  font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 
 .section-text {
@@ -68,21 +93,48 @@ button:hover {
   font-weight: regular;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .section-color {
   background-color: f4f4fd;
 }
 
-h2 {
+.mainsection {
   color: #2e2f42;
   font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
   font-size: 36px;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+.mainsection-photo {
+  background-color: #ffffff;
+}
+
+.mainsection-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.mainsection-text {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.foot-er {
+  background-color: #2e2f42;
 }
 
 .comment {
   color: #f4f4fd;
   background-color: #2e2f42;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
