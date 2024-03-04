@@ -14,16 +14,23 @@ body {
   text-transform: uppercase;
 }
 
-.logo-1 {
+.logo-one {
   color: #2e2f42;
   font-size: 18px;
   font-weight: 700;
 }
 
-.logo-2 {
+.logo-two {
   color: #f4f4fd;
   font-size: 18px;
   font-weight: 700;
+}
+
+.navigation-list {
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .navigation-link {
@@ -33,18 +40,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-.navigation-link1 {
-  color: #2e2f42;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.navigation-link1:hover {
+.navigation-link:hover {
   color: #404bbf;
 }
 
-.navigation-link1:focus {
+.navigation-link:focus {
   color: #404bbf;
 }
 
