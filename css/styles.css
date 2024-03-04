@@ -20,19 +20,23 @@ body {
   font-weight: 700;
 }
 
-.navigation .navigation-link {
+.navigation-link {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.navigation .navigation-link:hover {
+.navigation-link:hover {
   color: #404bbf;
 }
 
-.navigation .navigation-link:focus {
+.navigation-link:focus {
   color: #404bbf;
+}
+
+.connection {
+  font-style: normal;
 }
 
 .connection .connection-link {
@@ -80,6 +84,10 @@ body {
   cursor: pointer;
 }
 
+.maincolor {
+  background-color: #2e2f42;
+}
+
 .section-title {
   color: #2e2f42;
   font-weight: 500;
@@ -97,7 +105,7 @@ body {
 }
 
 .section-color {
-  background-color: f4f4fd;
+  background-color: #f4f4fd;
 }
 
 .mainsection {
